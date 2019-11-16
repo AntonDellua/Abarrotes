@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rSG/values-en-rSG.xml",
+            "map": [
+                {
+                    "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/cc7cb20fb391f05ec80115ac8328672f/jetified-play-services-wallet-12.0.1/res/values-en-rSG/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "206",
+                        "endColumns": "99",
+                        "endOffsets": "305"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "103",
+                        "endOffsets": "154"
+                    }
+                }
+            ]
+        }
+    ]
+}
