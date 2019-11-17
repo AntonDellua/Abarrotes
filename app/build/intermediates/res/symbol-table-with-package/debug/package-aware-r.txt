@@ -875,6 +875,7 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color blackTextColor
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -1045,6 +1046,10 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
+color profileAccentColor
+color profileBackground
+color profileEditTextColor
+color profilePrimaryDark
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -1077,6 +1082,7 @@ color wallet_holo_blue_light
 color wallet_link_text_light
 color wallet_primary_text_holo_light
 color wallet_secondary_text_holo_dark
+color whiteTextColor
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -1156,6 +1162,7 @@ dimen abc_text_size_subtitle_material_toolbar
 dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
 dimen action_bar_size
+dimen app_bar_height
 dimen appcompat_dialog_background_inset
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
@@ -1245,9 +1252,11 @@ dimen design_tab_text_size_2line
 dimen design_textinput_caption_translate_y
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
+dimen fab_margin
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
+dimen headerTextSize
 dimen highlight_alpha_material_colored
 dimen highlight_alpha_material_dark
 dimen highlight_alpha_material_light
@@ -1440,6 +1449,7 @@ dimen subtitle_outline_width
 dimen subtitle_shadow_offset
 dimen subtitle_shadow_radius
 dimen test_mtrl_calendar_day_cornerSize
+dimen text_margin
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -1625,14 +1635,18 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable home_button
 drawable ic_account
+drawable ic_address
 drawable ic_audiotrack_dark
 drawable ic_audiotrack_light
+drawable ic_calendar
 drawable ic_calendar_black_24dp
 drawable ic_clear_black_24dp
 drawable ic_dialog_close_dark
 drawable ic_dialog_close_light
 drawable ic_edit_black_24dp
+drawable ic_email
 drawable ic_group_collapse_00
 drawable ic_group_collapse_01
 drawable ic_group_collapse_02
@@ -1812,6 +1826,8 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_person
+drawable ic_phone
 drawable ic_plusone_medium_off_client
 drawable ic_plusone_small_off_client
 drawable ic_plusone_standard_off_client
@@ -1822,6 +1838,7 @@ drawable ic_vol_type_speaker_group_light
 drawable ic_vol_type_speaker_light
 drawable ic_vol_type_tv_dark
 drawable ic_vol_type_tv_light
+drawable logo
 drawable mr_button_connected_dark
 drawable mr_button_connected_light
 drawable mr_button_connecting_dark
@@ -1868,6 +1885,9 @@ drawable places_ic_clear
 drawable places_ic_search
 drawable powered_by_google_dark
 drawable powered_by_google_light
+drawable profile_bk
+drawable profile_button
+drawable profile_round
 drawable quantum_ic_art_track_grey600_48
 drawable quantum_ic_bigtop_updates_white_24
 drawable quantum_ic_cast_connected_white_24
@@ -1984,6 +2004,7 @@ id ad_image_view
 id ad_in_progress_label
 id ad_label
 id add
+id addressImageView
 id adjust_height
 id adjust_width
 id alertTitle
@@ -1993,6 +2014,7 @@ id android_pay
 id android_pay_dark
 id android_pay_light
 id android_pay_light_with_border
+id app_bar
 id async
 id audio_list_view
 id auto
@@ -2073,11 +2095,13 @@ id dialog_button
 id dimensions
 id direct
 id disableHome
+id dobImageView
 id donate_with
 id donate_with_google
 id dropdown_menu
 id edit_query
 id email
+id emailImageView
 id end
 id end_padder
 id end_text
@@ -2137,11 +2161,22 @@ id left
 id light
 id line1
 id line3
+id linearLayout
 id listMode
 id list_item
 id live_stream_indicator
 id live_stream_seek_bar
 id loading_indicator
+id login_btn_login
+id login_iv_logo
+id login_tiet_password
+id login_tiet_username
+id login_til_password
+id login_til_username
+id login_tv_create_account_action
+id login_tv_create_account_question
+id login_tv_forgot_action
+id login_tv_forgot_question
 id logo_only
 id map
 id masked
@@ -2152,6 +2187,7 @@ id media_actions
 id message
 id middle
 id mini
+id mobileImageView
 id monochrome
 id month_grid
 id month_navigation_bar
@@ -2225,6 +2261,8 @@ id mtrl_picker_text_input_range_end
 id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id multiply
+id nameImageView
+id nameTextView
 id navigation_header_container
 id never
 id noScroll
@@ -2261,6 +2299,14 @@ id progressBar
 id progress_circular
 id progress_horizontal
 id radio
+id register_rd_sex
+id register_til_email
+id register_til_name
+id register_til_password
+id restore_password_body
+id restore_password_restore
+id restore_password_title
+id restore_password_user
 id rfc822
 id right
 id right_icon
@@ -2354,6 +2400,7 @@ id titleDividerNoCustom
 id title_template
 id title_view
 id toolbar
+id toolbar_layout
 id top
 id topPanel
 id touch_outside
@@ -2443,6 +2490,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout about_us
 layout activity_main
 layout cast_expanded_controller_activity
 layout cast_help_text
@@ -2450,6 +2498,7 @@ layout cast_intro_overlay
 layout cast_mini_controller
 layout cast_tracks_chooser_dialog_layout
 layout cast_tracks_chooser_dialog_row_layout
+layout content_profile
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2466,6 +2515,8 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout forgot_password
+layout login
 layout mr_cast_dialog
 layout mr_cast_group_item
 layout mr_cast_group_volume_item
@@ -2527,9 +2578,14 @@ layout place_autocomplete_fragment
 layout place_autocomplete_item_powered_by_google
 layout place_autocomplete_item_prediction
 layout place_autocomplete_progress
+layout privacy_config
+layout register
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout sell_with_us
+layout settings
+layout splash_screen
 layout support_simple_spinner_dropdown_item
 layout test_action_chip
 layout test_reflow_chipgroup
@@ -2542,6 +2598,9 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+layout tiendita_container
+layout user_profile
+layout user_security_settings
 layout wallet_test_layout
 menu bottom_navigation
 mipmap ic_launcher
@@ -2574,6 +2633,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string action_settings
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
@@ -2646,9 +2706,19 @@ string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string fcm_fallback_notification_channel_label
+string forgot_password_account
+string forgot_password_recover
+string forgot_password_send
 string gcm_fallback_notification_channel_label
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+string login_create_account_action
+string login_create_account_question
+string login_forgot_action
+string login_forgot_question
+string login_login
+string login_password
+string login_user
 string mr_button_content_description
 string mr_cast_button_connected
 string mr_cast_button_connecting
@@ -2703,6 +2773,13 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string place_autocomplete_clear_button
 string place_autocomplete_search_hint
+string register_email
+string register_name
+string register_password
+string register_register
+string register_sex_f
+string register_sex_m
+string register_sex_o
 string s1
 string s2
 string s3
@@ -2715,6 +2792,7 @@ string status_bar_notification_info_overflow
 string tagmanager_preview_dialog_button
 string tagmanager_preview_dialog_message
 string tagmanager_preview_dialog_title
+string title_activity_profile
 string wallet_buy_button_place_holder
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
@@ -2724,6 +2802,10 @@ style Animation_AppCompat_Tooltip
 style Animation_Design_BottomSheetDialog
 style Animation_MaterialComponents_BottomSheetDialog
 style AppTheme
+style AppTheme_AppBarOverlay
+style AppTheme_NoActionBar
+style AppTheme_PopupOverlay
+style AppTheme_ProfileTheme
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog
@@ -3233,6 +3315,7 @@ style ThemeOverlay_MaterialComponents_Toolbar_Primary
 style ThemeOverlay_MaterialComponents_Toolbar_Surface
 style ThemeOverlay_MediaRouter_Dark
 style ThemeOverlay_MediaRouter_Light
+style TransparentText
 style WalletFragmentDefaultButtonTextAppearance
 style WalletFragmentDefaultDetailsHeaderTextAppearance
 style WalletFragmentDefaultDetailsTextAppearance
@@ -3419,6 +3502,16 @@ style Widget_MaterialComponents_Toolbar_Surface
 style Widget_MediaRouter_Light_MediaRouteButton
 style Widget_MediaRouter_MediaRouteButton
 style Widget_Support_CoordinatorLayout
+style headerText
+style parent
+style profileDetailsImage
+style profileDetailsLayout
+style profileDetailsMiniText
+style profileDetailsTextMain
+style profileStyledBackButton
+style proifleDetailsView
+style textInputHintStyle
+style viewParent
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth

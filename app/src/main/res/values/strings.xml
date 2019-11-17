@@ -22,4 +22,7 @@
     <string name="forgot_password_account">Ingresa tu nombre de usuario de Itesogram o el correo electrónico vinculado a tu cuenta.</string>
     <string name="forgot_password_send">Enviar</string>
 
+    <string name="title_activity_profile">Profile</string>
+    <string name="action_settings">Settings</string>
+
 </resources>

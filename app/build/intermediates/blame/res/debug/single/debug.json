@@ -28,12 +28,12 @@
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/745f8a72e596c3d4b1f445848fe15272/appcompat-1.1.0-rc01/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_quantum_ic_volume_off_grey600_36.png.flat",
-        "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/e6b63a6f539d45b6e5e8d339fa915ce2/jetified-play-services-cast-framework-12.0.1/res/drawable-xxxhdpi-v4/quantum_ic_volume_off_grey600_36.png"
-    },
-    {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/6df7882eb0246832568e69facac60dad/core-1.1.0-rc02/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_quantum_ic_volume_off_grey600_36.png.flat",
+        "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/e6b63a6f539d45b6e5e8d339fa915ce2/jetified-play-services-cast-framework-12.0.1/res/drawable-xxxhdpi-v4/quantum_ic_volume_off_grey600_36.png"
     },
     {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_mr_button_connecting_14_light.png.flat",
@@ -52,12 +52,12 @@
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/6691e97d382fcb700bfccdef593d9eaa/mediarouter-1.0.0-alpha5/res/drawable-xxhdpi-v4/ic_mr_button_connecting_28_dark.png"
     },
     {
-        "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/anim_btn_radio_to_off_mtrl_ring_outer_animation.xml.flat",
-        "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/745f8a72e596c3d4b1f445848fe15272/appcompat-1.1.0-rc01/res/anim/btn_radio_to_off_mtrl_ring_outer_animation.xml"
-    },
-    {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_mr_button_connecting_11_light.png.flat",
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/6691e97d382fcb700bfccdef593d9eaa/mediarouter-1.0.0-alpha5/res/drawable-xhdpi-v4/ic_mr_button_connecting_11_light.png"
+    },
+    {
+        "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/anim_btn_radio_to_off_mtrl_ring_outer_animation.xml.flat",
+        "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/745f8a72e596c3d4b1f445848fe15272/appcompat-1.1.0-rc01/res/anim/btn_radio_to_off_mtrl_ring_outer_animation.xml"
     },
     {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_quantum_ic_cast_connected_white_24.png.flat",
@@ -96,12 +96,12 @@
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/6691e97d382fcb700bfccdef593d9eaa/mediarouter-1.0.0-alpha5/res/drawable-xxxhdpi-v4/ic_group_expand_06.png"
     },
     {
-        "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_ic_mr_button_connected_18_dark.png.flat",
-        "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/6691e97d382fcb700bfccdef593d9eaa/mediarouter-1.0.0-alpha5/res/drawable-xxhdpi-v4/ic_mr_button_connected_18_dark.png"
-    },
-    {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/layout_abc_activity_chooser_view_list_item.xml.flat",
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/745f8a72e596c3d4b1f445848fe15272/appcompat-1.1.0-rc01/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_ic_mr_button_connected_18_dark.png.flat",
+        "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/6691e97d382fcb700bfccdef593d9eaa/mediarouter-1.0.0-alpha5/res/drawable-xxhdpi-v4/ic_mr_button_connected_18_dark.png"
     },
     {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_quantum_ic_pause_circle_filled_white_36.png.flat",
@@ -152,12 +152,12 @@
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/6df7882eb0246832568e69facac60dad/core-1.1.0-rc02/res/layout-v21/notification_template_icon_group.xml"
     },
     {
-        "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_quantum_ic_replay_white_24.png.flat",
-        "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/e6b63a6f539d45b6e5e8d339fa915ce2/jetified-play-services-cast-framework-12.0.1/res/drawable-xxhdpi-v4/quantum_ic_replay_white_24.png"
-    },
-    {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/anim_btn_checkbox_to_unchecked_icon_null_animation.xml.flat",
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/745f8a72e596c3d4b1f445848fe15272/appcompat-1.1.0-rc01/res/anim/btn_checkbox_to_unchecked_icon_null_animation.xml"
+    },
+    {
+        "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_quantum_ic_replay_white_24.png.flat",
+        "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/e6b63a6f539d45b6e5e8d339fa915ce2/jetified-play-services-cast-framework-12.0.1/res/drawable-xxhdpi-v4/quantum_ic_replay_white_24.png"
     },
     {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_quantum_ic_play_circle_filled_white_36.png.flat",
@@ -168,24 +168,24 @@
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/6691e97d382fcb700bfccdef593d9eaa/mediarouter-1.0.0-alpha5/res/layout/mr_cast_dialog.xml"
     },
     {
-        "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable_cast_ic_notification_forward30.xml.flat",
-        "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/e6b63a6f539d45b6e5e8d339fa915ce2/jetified-play-services-cast-framework-12.0.1/res/drawable/cast_ic_notification_forward30.xml"
+        "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_design_ic_visibility.png.flat",
+        "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/fb96d30864d5cb887e855c149540e2c0/material-1.1.0-alpha09/res/drawable-hdpi-v4/design_ic_visibility.png"
     },
     {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/layout_mtrl_calendar_day_of_week.xml.flat",
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/fb96d30864d5cb887e855c149540e2c0/material-1.1.0-alpha09/res/layout/mtrl_calendar_day_of_week.xml"
     },
     {
-        "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_design_ic_visibility.png.flat",
-        "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/fb96d30864d5cb887e855c149540e2c0/material-1.1.0-alpha09/res/drawable-hdpi-v4/design_ic_visibility.png"
-    },
-    {
-        "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/layout_mr_playback_control.xml.flat",
-        "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/6691e97d382fcb700bfccdef593d9eaa/mediarouter-1.0.0-alpha5/res/layout/mr_playback_control.xml"
+        "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable_cast_ic_notification_forward30.xml.flat",
+        "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/e6b63a6f539d45b6e5e8d339fa915ce2/jetified-play-services-cast-framework-12.0.1/res/drawable/cast_ic_notification_forward30.xml"
     },
     {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/745f8a72e596c3d4b1f445848fe15272/appcompat-1.1.0-rc01/res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/layout_mr_playback_control.xml.flat",
+        "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/6691e97d382fcb700bfccdef593d9eaa/mediarouter-1.0.0-alpha5/res/layout/mr_playback_control.xml"
     },
     {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_ic_media_play_light.png.flat",
@@ -752,6 +752,10 @@
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/6691e97d382fcb700bfccdef593d9eaa/mediarouter-1.0.0-alpha5/res/drawable-xxhdpi-v4/ic_mr_button_connected_30_light.png"
     },
     {
+        "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable_logo.png.flat",
+        "source": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/src/main/res/drawable/logo.png"
+    },
+    {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_light_normal.xml.flat",
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/92dd84b08b78675797c9d6851dbf651f/jetified-play-services-base-12.0.1/res/drawable/common_google_signin_btn_icon_light_normal.xml"
     },
@@ -1176,6 +1180,10 @@
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/92dd84b08b78675797c9d6851dbf651f/jetified-play-services-base-12.0.1/res/color/common_google_signin_btn_text_light.xml"
     },
     {
+        "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable_ic_phone.xml.flat",
+        "source": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/src/main/res/drawable/ic_phone.xml"
+    },
+    {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_mr_button_connected_17_light.png.flat",
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/6691e97d382fcb700bfccdef593d9eaa/mediarouter-1.0.0-alpha5/res/drawable-xhdpi-v4/ic_mr_button_connected_17_light.png"
     },
@@ -1272,6 +1280,10 @@
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/e6b63a6f539d45b6e5e8d339fa915ce2/jetified-play-services-cast-framework-12.0.1/res/drawable-mdpi-v4/quantum_ic_bigtop_updates_white_24.png"
     },
     {
+        "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable_profile_bk.xml.flat",
+        "source": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/src/main/res/drawable/profile_bk.xml"
+    },
+    {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_mr_button_connected_26_light.png.flat",
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/6691e97d382fcb700bfccdef593d9eaa/mediarouter-1.0.0-alpha5/res/drawable-xhdpi-v4/ic_mr_button_connected_26_light.png"
     },
@@ -1350,6 +1362,10 @@
     {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/745f8a72e596c3d4b1f445848fe15272/appcompat-1.1.0-rc01/res/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/layout_privacy_config.xml.flat",
+        "source": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/src/main/res/layout/privacy_config.xml"
     },
     {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_mr_button_connected_20_light.png.flat",
@@ -1880,6 +1896,10 @@
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/fb96d30864d5cb887e855c149540e2c0/material-1.1.0-alpha09/res/layout/text_view_with_line_height_from_style.xml"
     },
     {
+        "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable_profile_button.xml.flat",
+        "source": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/src/main/res/drawable/profile_button.xml"
+    },
+    {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_quantum_ic_volume_off_white_36.png.flat",
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/e6b63a6f539d45b6e5e8d339fa915ce2/jetified-play-services-cast-framework-12.0.1/res/drawable-xhdpi-v4/quantum_ic_volume_off_white_36.png"
     },
@@ -2042,6 +2062,10 @@
     {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/layout_notification_template_media_custom.xml.flat",
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/55c801ebe9254aadd0bc70a611ebff34/media-1.0.0/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable_ic_calendar.xml.flat",
+        "source": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/src/main/res/drawable/ic_calendar.xml"
     },
     {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -2452,6 +2476,10 @@
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/745f8a72e596c3d4b1f445848fe15272/appcompat-1.1.0-rc01/res/color/switch_thumb_material_light.xml"
     },
     {
+        "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/layout_about_us.xml.flat",
+        "source": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/src/main/res/layout/about_us.xml"
+    },
+    {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/layout-watch-v20_abc_alert_dialog_title_material.xml.flat",
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/745f8a72e596c3d4b1f445848fe15272/appcompat-1.1.0-rc01/res/layout-watch-v20/abc_alert_dialog_title_material.xml"
     },
@@ -2704,6 +2732,10 @@
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/745f8a72e596c3d4b1f445848fe15272/appcompat-1.1.0-rc01/res/anim/btn_radio_to_off_mtrl_dot_group_animation.xml"
     },
     {
+        "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable_profile_round.xml.flat",
+        "source": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/src/main/res/drawable/profile_round.xml"
+    },
+    {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/745f8a72e596c3d4b1f445848fe15272/appcompat-1.1.0-rc01/res/drawable-xxhdpi-v4/abc_ic_star_half_black_16dp.png"
     },
@@ -2826,6 +2858,10 @@
     {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/color_mtrl_error.xml.flat",
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/fb96d30864d5cb887e855c149540e2c0/material-1.1.0-alpha09/res/color/mtrl_error.xml"
+    },
+    {
+        "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/layout_forgot_password.xml.flat",
+        "source": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/src/main/res/layout/forgot_password.xml"
     },
     {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
@@ -3196,6 +3232,10 @@
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/fb96d30864d5cb887e855c149540e2c0/material-1.1.0-alpha09/res/color/test_background_state_unsupported_case.xml"
     },
     {
+        "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/layout_sell_with_us.xml.flat",
+        "source": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/src/main/res/layout/sell_with_us.xml"
+    },
+    {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_ic_plusone_small_off_client.png.flat",
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/1653eb057cdda3c8d8f106ae40b5ecd0/jetified-play-services-plus-12.0.1/res/drawable-hdpi-v4/ic_plusone_small_off_client.png"
     },
@@ -3302,6 +3342,10 @@
     {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/layout_mtrl_calendar_vertical.xml.flat",
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/fb96d30864d5cb887e855c149540e2c0/material-1.1.0-alpha09/res/layout/mtrl_calendar_vertical.xml"
+    },
+    {
+        "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/layout_tiendita_container.xml.flat",
+        "source": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/src/main/res/layout/tiendita_container.xml"
     },
     {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable_abc_item_background_holo_dark.xml.flat",
@@ -3460,6 +3504,10 @@
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/745f8a72e596c3d4b1f445848fe15272/appcompat-1.1.0-rc01/res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png"
     },
     {
+        "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/layout_splash_screen.xml.flat",
+        "source": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/src/main/res/layout/splash_screen.xml"
+    },
+    {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable_notification_icon_background.xml.flat",
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/6df7882eb0246832568e69facac60dad/core-1.1.0-rc02/res/drawable/notification_icon_background.xml"
     },
@@ -3486,6 +3534,10 @@
     {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable-v21_notification_action_background.xml.flat",
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/6df7882eb0246832568e69facac60dad/core-1.1.0-rc02/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/layout_content_profile.xml.flat",
+        "source": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/src/main/res/layout/content_profile.xml"
     },
     {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/layout_abc_search_dropdown_item_icons_2line.xml.flat",
@@ -3730,6 +3782,10 @@
     {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/745f8a72e596c3d4b1f445848fe15272/appcompat-1.1.0-rc01/res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable_ic_person.xml.flat",
+        "source": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/src/main/res/drawable/ic_person.xml"
     },
     {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_quantum_ic_replay_30_white_24.png.flat",
@@ -4104,6 +4160,10 @@
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/745f8a72e596c3d4b1f445848fe15272/appcompat-1.1.0-rc01/res/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
+        "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/layout_register.xml.flat",
+        "source": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/src/main/res/layout/register.xml"
+    },
+    {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable-v21_abc_dialog_material_background.xml.flat",
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/745f8a72e596c3d4b1f445848fe15272/appcompat-1.1.0-rc01/res/drawable-v21/abc_dialog_material_background.xml"
     },
@@ -4158,6 +4218,10 @@
     {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/745f8a72e596c3d4b1f445848fe15272/appcompat-1.1.0-rc01/res/drawable-ldrtl-xxxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/layout_user_profile.xml.flat",
+        "source": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/src/main/res/layout/user_profile.xml"
     },
     {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable_cast_ic_expanded_controller_pause.xml.flat",
@@ -4318,6 +4382,10 @@
     {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_ic_mr_button_connected_06_dark.png.flat",
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/6691e97d382fcb700bfccdef593d9eaa/mediarouter-1.0.0-alpha5/res/drawable-xxhdpi-v4/ic_mr_button_connected_06_dark.png"
+    },
+    {
+        "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable_home_button.xml.flat",
+        "source": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/src/main/res/drawable/home_button.xml"
     },
     {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable_abc_cab_background_internal_bg.xml.flat",
@@ -4812,6 +4880,10 @@
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/6691e97d382fcb700bfccdef593d9eaa/mediarouter-1.0.0-alpha5/res/drawable-hdpi-v4/ic_vol_type_speaker_group_dark.png"
     },
     {
+        "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable_ic_address.xml.flat",
+        "source": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/src/main/res/drawable/ic_address.xml"
+    },
+    {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable_cast_ic_mini_controller_mute.xml.flat",
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/e6b63a6f539d45b6e5e8d339fa915ce2/jetified-play-services-cast-framework-12.0.1/res/drawable/cast_ic_mini_controller_mute.xml"
     },
@@ -4882,6 +4954,10 @@
     {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/745f8a72e596c3d4b1f445848fe15272/appcompat-1.1.0-rc01/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/layout_login.xml.flat",
+        "source": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/src/main/res/layout/login.xml"
     },
     {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/layout_mr_controller_material_dialog_b.xml.flat",
@@ -5014,6 +5090,10 @@
     {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_ic_plusone_standard_off_client.png.flat",
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/1653eb057cdda3c8d8f106ae40b5ecd0/jetified-play-services-plus-12.0.1/res/drawable-xxhdpi-v4/ic_plusone_standard_off_client.png"
+    },
+    {
+        "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/layout_user_security_settings.xml.flat",
+        "source": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/src/main/res/layout/user_security_settings.xml"
     },
     {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_half_black_36dp.png.flat",
@@ -5178,6 +5258,10 @@
     {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/6df7882eb0246832568e69facac60dad/core-1.1.0-rc02/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/layout_settings.xml.flat",
+        "source": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/src/main/res/layout/settings.xml"
     },
     {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable-nodpi-v4_cast_album_art_placeholder_large.png.flat",
@@ -5498,6 +5582,10 @@
     {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_ic_mr_button_connected_14_light.png.flat",
         "source": "/home/anton/.gradle/caches/transforms-2/files-2.1/6691e97d382fcb700bfccdef593d9eaa/mediarouter-1.0.0-alpha5/res/drawable-xxhdpi-v4/ic_mr_button_connected_14_light.png"
+    },
+    {
+        "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable_ic_email.xml.flat",
+        "source": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/src/main/res/drawable/ic_email.xml"
     },
     {
         "merged": "/home/anton/git/AndroidStudioProjects/Abarrotes/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_quantum_ic_closed_caption_white_36.png.flat",

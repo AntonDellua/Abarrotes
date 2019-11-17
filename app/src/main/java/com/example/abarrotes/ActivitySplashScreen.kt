@@ -12,7 +12,7 @@ class ActivitySplashScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.splash_screen)
-
+        /*
         val sharedPreferences = getSharedPreferences(SHARED_PREFERENCES, Context.MODE_PRIVATE)
         val sessionId = sharedPreferences.getString(SESSION_ID_KEY, "")
 
@@ -23,6 +23,8 @@ class ActivitySplashScreen : AppCompatActivity() {
         }
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP)
         startActivity(intent)
+        */
+
     }
 
 }
