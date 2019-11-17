@@ -1,3 +1,25 @@
 <resources>
+
     <string name="app_name">Abarrotes</string>
+
+    <string name="login_user">Teléfono, correo electrónico o usuario</string>
+    <string name="login_password">Contraseña</string>
+    <string name="login_login">Iniciar Sesión</string>
+    <string name="login_forgot_question">¿Olvidaste tus datos de inicio de sesión?</string>
+    <string name="login_forgot_action">Obtén ayuda.</string>
+    <string name="login_create_account_question">¿No tienes cuenta?</string>
+    <string name="login_create_account_action">Regístrate.</string>
+
+    <string name="register_email">Correo electronico</string>
+    <string name="register_name">Nombre</string>
+    <string name="register_password">Contrasena</string>
+    <string name="register_register">Registrar</string>
+    <string name="register_sex_m">Masculino</string>
+    <string name="register_sex_f">Femenino</string>
+    <string name="register_sex_o">Otro</string>
+
+    <string name="forgot_password_recover">Recupera tu cuenta</string>
+    <string name="forgot_password_account">Ingresa tu nombre de usuario de Itesogram o el correo electrónico vinculado a tu cuenta.</string>
+    <string name="forgot_password_send">Enviar</string>
+
 </resources>
