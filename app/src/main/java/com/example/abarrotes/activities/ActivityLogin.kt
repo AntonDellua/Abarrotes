@@ -1,18 +1,15 @@
-package com.example.abarrotes
+package com.example.abarrotes.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
-import android.widget.Toast
-import androidx.core.content.ContextCompat.startActivity
-import java.nio.file.Files.find
+import com.example.abarrotes.R
 
 import org.jetbrains.anko.find
 import org.jetbrains.anko.startActivity
 //import com.parse.ParseUser
-import android.content.Context
 
 //import iteso.mx.itesogram.utils.SESSION_ID_KEY
 //import iteso.mx.itesogram.utils.SHARED_PREFERENCES

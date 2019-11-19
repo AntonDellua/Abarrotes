@@ -1,5 +1,4 @@
 package com.example.abarrotes
 
-class ActivityProfile {
-
+class AbarrotesApplication {
 }

@@ -1,11 +1,12 @@
-package com.example.abarrotes
+package com.example.abarrotes.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
+import com.example.abarrotes.R
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
-class MainActivity : AppCompatActivity(), BottomNavigationView.OnNavigationItemSelectedListener {
+class ActivityMain : AppCompatActivity(), BottomNavigationView.OnNavigationItemSelectedListener {
 
     // Fragment Declarations
     private val homeFragment = null
