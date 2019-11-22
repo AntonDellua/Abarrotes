@@ -24,31 +24,6 @@ class ActivityLogin : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.login)
-
-        mLogin = find(R.id.login_btn_login)
-        mUserName = find(R.id.login_tiet_username)
-        mPassword = find(R.id.login_tiet_password)
-
-        /*
-        mLogin.setOnClickListener {
-
-            ParseUser
-                .logInInBackground(
-                    mUserName.text.toString(),
-                    mPassword.text.toString()
-                ) { parseUser, error ->
-                    if (error == null) {
-                        saveSessionToken(parseUser.sessionToken)
-                        startActivity<ActivityMain>()
-                    } else {
-                        Toast.makeText(this, "Login error", Toast.LENGTH_LONG).show()
-                    }
-                }
-        }*/
-
-        find<TextView>(R.id.login_tv_forgot_action).setOnClickListener {
-            startActivity<ActivityForgotPassword>()
-        }
     }
 
     /*

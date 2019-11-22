@@ -21,7 +21,7 @@ class ActivitySplashScreen : AppCompatActivity() {
             val sessionId = sharedPreferences.getString(SESSION_ID_KEY, "")
 
             val intent = if (sessionId == "") {
-                Intent(this, ActivityMain::class.java)
+                Intent(this, ActivityLogin::class.java)
             } else {
                 Intent(this, ActivityMain::class.java)
             }
