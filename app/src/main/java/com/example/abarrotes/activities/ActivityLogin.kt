@@ -9,12 +9,15 @@ import org.jetbrains.anko.find
 import org.jetbrains.anko.startActivity
 import com.parse.ParseUser
 import android.content.Context
+import android.content.Intent
 import android.widget.EditText
 import android.widget.Toast
 import com.example.abarrotes.utils.SESSION_ID_KEY
 import com.example.abarrotes.utils.SHARED_PREFERENCES
 import com.example.abarrotes.utils.isEmptyInput
 import com.example.abarrotes.utils.isValidEmail
+
+
 
 class ActivityLogin : AppCompatActivity() {
 
@@ -33,8 +36,6 @@ class ActivityLogin : AppCompatActivity() {
         mUserEmail = find(R.id.login_tiet_email)
         mPassword = find(R.id.login_tiet_password)
 
-
-
         mLogin.setOnClickListener {
             if (isEmptyInput(mUserName.text.toString()) || isEmptyInput(mPassword.text.toString())) {
                 Toast.makeText(this, "Revisar campos vacios", Toast.LENGTH_LONG).show()
@@ -47,10 +48,18 @@ class ActivityLogin : AppCompatActivity() {
                         mUserName.text.toString(),
                         mPassword.text.toString()
                     ) { parseUser, error ->
-                        if (error == null) {
+                        if (error == null && parseUser?.get("emailVerified") == true) {
                             saveSessionToken(parseUser.sessionToken)
-                            startActivity<ActivityMain>()
-                        } else {
+                            val intent = Intent(this, ActivityMain::class.java)
+                            intent.flags =
+                                Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP
+                            startActivity(intent)
+                            finish()
+                        }else if (parseUser?.get("emailVerified") == false) {
+                            Toast.makeText(this, "Su correo electrónico no esta validado", Toast.LENGTH_LONG)
+                                .show()
+                        }
+                        else {
                             Toast.makeText(this, "Error al iniciar session", Toast.LENGTH_LONG)
                                 .show()
                         }
