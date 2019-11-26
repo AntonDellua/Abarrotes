@@ -43,7 +43,7 @@ class ActivityLogin : AppCompatActivity() {
                         saveSessionToken(parseUser.sessionToken)
                         startActivity<ActivityMain>()
                     } else {
-                        Toast.makeText(this, error.toString(), Toast.LENGTH_LONG).show()
+                        Toast.makeText(this, "Error al iniciar session", Toast.LENGTH_LONG).show()
                     }
                 }
         }
@@ -52,9 +52,9 @@ class ActivityLogin : AppCompatActivity() {
             startActivity<ActivityRegister>()
         }
 
-        /*find<TextView>(R.id.login_tv_forgot_action).setOnClickListener {
-            startActivity<ActivityMain>() // Activity Restore Password
-        }*/
+        find<TextView>(R.id.login_tv_forgot_action).setOnClickListener {
+            startActivity<ActivityForgotPassword>()
+        }
     }
 
     private fun saveSessionToken(sessionToken: String) {

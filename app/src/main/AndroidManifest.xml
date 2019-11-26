@@ -34,6 +34,7 @@
         </activity>
         <activity android:name=".activities.ActivityLogin" android:screenOrientation="portrait"/>
         <activity android:name=".activities.ActivityRegister" android:screenOrientation="portrait"/>
+        <activity android:name=".activities.ActivityForgotPassword" android:screenOrientation="portrait"/>
         <activity android:name=".activities.ActivityMain" android:screenOrientation="portrait"/>
     </application>
 
