@@ -13,6 +13,8 @@ import android.widget.EditText
 import android.widget.Toast
 import com.example.abarrotes.utils.SESSION_ID_KEY
 import com.example.abarrotes.utils.SHARED_PREFERENCES
+import com.example.abarrotes.utils.isEmptyInput
+import com.example.abarrotes.utils.isValidEmail
 
 class ActivityLogin : AppCompatActivity() {
 
@@ -32,20 +34,28 @@ class ActivityLogin : AppCompatActivity() {
         mPassword = find(R.id.login_tiet_password)
 
 
-        mLogin.setOnClickListener {
 
-            ParseUser
-                .logInInBackground(
-                    mUserName.text.toString(),
-                    mPassword.text.toString()
-                ) { parseUser, error ->
-                    if (error == null) {
-                        saveSessionToken(parseUser.sessionToken)
-                        startActivity<ActivityMain>()
-                    } else {
-                        Toast.makeText(this, "Error al iniciar session", Toast.LENGTH_LONG).show()
+        mLogin.setOnClickListener {
+            if (isEmptyInput(mUserName.text.toString()) || isEmptyInput(mPassword.text.toString())) {
+                Toast.makeText(this, "Revisar campos vacios", Toast.LENGTH_LONG).show()
+            }
+            else if (!isValidEmail(mUserEmail.text.toString())) {
+                Toast.makeText(this, "Email no válido", Toast.LENGTH_LONG).show()
+            } else {
+                ParseUser
+                    .logInInBackground(
+                        mUserName.text.toString(),
+                        mPassword.text.toString()
+                    ) { parseUser, error ->
+                        if (error == null) {
+                            saveSessionToken(parseUser.sessionToken)
+                            startActivity<ActivityMain>()
+                        } else {
+                            Toast.makeText(this, "Error al iniciar session", Toast.LENGTH_LONG)
+                                .show()
+                        }
                     }
-                }
+            }
         }
 
         find<TextView>(R.id.login_tv_create_account_action).setOnClickListener {

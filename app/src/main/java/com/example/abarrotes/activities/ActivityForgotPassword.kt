@@ -6,7 +6,9 @@ import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.abarrotes.R
+import com.example.abarrotes.utils.isValidEmail
 import com.parse.ParseUser
+import com.parse.RequestPasswordResetCallback
 import org.jetbrains.anko.find
 import org.jetbrains.anko.startActivity
 
@@ -23,7 +25,21 @@ class ActivityForgotPassword : AppCompatActivity() {
         mUserEmail = find(R.id.restore_tiet_email)
 
         mResetPass.setOnClickListener {
-            Toast.makeText(this, "Se le ha enviado un correo para actualizar su contraseña", Toast.LENGTH_LONG).show()
+            if (!isValidEmail(mUserEmail.text.toString())) {
+                Toast.makeText(this, "Email no válido", Toast.LENGTH_LONG).show()
+            } else {
+
+                ParseUser
+                    .requestPasswordResetInBackground(
+                        mUserEmail.text.toString()
+                    ){
+                        Toast.makeText(
+                            this,
+                            "Se le ha enviado un correo para actualizar su contraseña",
+                            Toast.LENGTH_LONG
+                        ).show()
+                    }
+            }
         }
     }
 

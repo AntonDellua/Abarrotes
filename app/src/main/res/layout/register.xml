@@ -27,7 +27,7 @@
                 style="@style/LoginTextInputEditStyle"
                 android:imeOptions="actionNext"
                 android:maxLines="1"
-                android:inputType="text"
+                android:inputType="textEmailAddress"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
