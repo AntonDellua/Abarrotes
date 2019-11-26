@@ -5,8 +5,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.abarrotes.R
-import com.example.abarrotes.Utils.SESSION_ID_KEY
-import com.example.abarrotes.Utils.SHARED_PREFERENCES
+import com.example.abarrotes.utils.SESSION_ID_KEY
+import com.example.abarrotes.utils.SHARED_PREFERENCES
 import android.os.Handler
 
 class ActivitySplashScreen : AppCompatActivity() {

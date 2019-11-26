@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
     tools:context=".activities.ActivityRegister">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -14,13 +15,19 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/register_til_email"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            style="@style/LoginTextInputLayoutStyle"
+            android:layout_marginTop="60dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/register_email"
             app:layout_constraintTop_toTopOf="parent">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/register_tiet_email"
+                style="@style/LoginTextInputEditStyle"
+                android:imeOptions="actionNext"
+                android:maxLines="1"
+                android:inputType="text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
@@ -28,7 +35,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/register_til_name"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            style="@style/LoginTextInputLayoutStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
@@ -36,6 +43,11 @@
             app:layout_constraintTop_toBottomOf="@id/register_til_email">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/register_tiet_name"
+                style="@style/LoginTextInputEditStyle"
+                android:imeOptions="actionNext"
+                android:maxLines="1"
+                android:inputType="text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
@@ -43,7 +55,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/register_til_password"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            style="@style/LoginTextInputLayoutStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
@@ -51,6 +63,10 @@
             app:layout_constraintTop_toBottomOf="@id/register_til_name">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/register_tiet_password"
+                style="@style/LoginTextInputEditStyle"
+                android:imeOptions="actionDone"
+                android:maxLines="1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPassword" />
@@ -58,35 +74,40 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <RadioGroup
-            android:id="@+id/register_rd_sex"
+            android:id="@+id/register_rg_buttons"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             app:layout_constraintTop_toBottomOf="@id/register_til_password">
 
             <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/register_rb_fem"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                style="@style/LoginTextInputEditStyle"
                 android:text="@string/register_sex_f" />
 
             <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/register_rb_mas"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                style="@style/LoginTextInputEditStyle"
                 android:text="@string/register_sex_m" />
 
             <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/register_rb_other"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                style="@style/LoginTextInputEditStyle"
                 android:text="@string/register_sex_o" />
-
         </RadioGroup>
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/register_btn_register"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@id/register_rd_sex"
+            app:layout_constraintTop_toBottomOf="@id/register_rg_buttons"
             android:text="@string/register_register" />
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </ScrollView>

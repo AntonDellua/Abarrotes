@@ -4,14 +4,14 @@
 
     <string name="login_user">Usuario</string>
     <string name="login_email">Correo electrónico</string>
-    <string name="login_register">Registro</string>
+    <string name="login_name">Abarrotes</string>
     <string name="login_password">Contraseña</string>
     <string name="login_login">Iniciar Sesión</string>
     <string name="login_forgot_action">¿Olvidaste tu contraseña?</string>
     <string name="login_create_account_question">¿No tienes cuenta?</string>
     <string name="login_create_account_action">Regístrate.</string>
 
-    <string name="register_email">Correo electronico</string>
+    <string name="register_email">Correo electrónico</string>
     <string name="register_name">Nombre</string>
     <string name="register_password">Contrasena</string>
     <string name="register_register">Registrar</string>
