@@ -7,18 +7,20 @@ import com.example.abarrotes.R
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class ActivityMain : AppCompatActivity(), BottomNavigationView.OnNavigationItemSelectedListener {
-
-    // Fragment Declarations
     private val homeFragment = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
-
-        // Normal beginning, set content to main layout
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        /*val bottom = find<BottomNavigationView>(R.id.activity_main_bnv_navigation)
+        bottom.setOnNavigationItemSelectedListener(this)
+        supportFragmentManager
+            .beginTransaction()
+            .replace(R.id.main_content, FragmentMaps)
+            .commit()*/
     }
 
-    // Nav Menu Functionality
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         val newFragmentReference = when (item.itemId) {
             R.id.action_home -> {
@@ -37,14 +39,4 @@ class ActivityMain : AppCompatActivity(), BottomNavigationView.OnNavigationItemS
         //changeFragment(newFragmentReference)
         return true
     }
-
-    /*
-    // Fragment Changer implemented with Nav Menu Functionality
-    private fun changeFragment(fragment: Fragment) {
-        supportFragmentManager
-            .beginTransaction()
-            .replace(R.id.activity_main_fl_main_content, fragment)
-            .commit()
-    }
-    */
 }

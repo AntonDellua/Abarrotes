@@ -17,8 +17,6 @@ import com.example.abarrotes.utils.SHARED_PREFERENCES
 import com.example.abarrotes.utils.isEmptyInput
 import com.example.abarrotes.utils.isValidEmail
 
-
-
 class ActivityLogin : AppCompatActivity() {
 
     // Variables

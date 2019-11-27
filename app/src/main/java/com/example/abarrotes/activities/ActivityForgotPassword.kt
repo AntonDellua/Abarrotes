@@ -8,9 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.abarrotes.R
 import com.example.abarrotes.utils.isValidEmail
 import com.parse.ParseUser
-import com.parse.RequestPasswordResetCallback
 import org.jetbrains.anko.find
-import org.jetbrains.anko.startActivity
 
 class ActivityForgotPassword : AppCompatActivity() {
 
