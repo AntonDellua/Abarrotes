@@ -4,6 +4,8 @@ apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
 
+apply plugin: 'com.google.gms.google-services'
+
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
@@ -30,12 +32,28 @@ dependencies {
     implementation 'androidx.core:core-ktx:1.1.0'
     implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.19'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
-    implementation 'com.github.parse-community.Parse-SDK-Android:parse:1.20.0'
     implementation 'org.jetbrains.anko:anko:0.10.8'
-    implementation "com.google.android.gms:play-services:12.0.1"
+    implementation 'com.google.android.gms:play-services-location:17.0.0'
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
     implementation 'com.google.android.material:material:1.1.0-alpha09'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    // Don't forget to change the line below with the latest version of Parse SDK for Android
+    implementation "com.github.parse-community.Parse-SDK-Android:parse:1.22.1"
+    // Don't forget to change the line below with the latest versions of Firebase SDKs
+    implementation 'com.google.firebase:firebase-core:17.2.1'
+    implementation 'com.google.firebase:firebase-messaging:20.0.1'
+    // Don't forget to change the lines belows with the latest versions these SDKs
+    implementation "com.github.parse-community.Parse-SDK-Android:fcm:1.22.1"
+    implementation 'com.parse.bolts:bolts-android:1.4.0'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
 }
+
+repositories {
+    mavenCentral()
+    jcenter()
+    maven { url 'https://jitpack.io' }
+}
+
+apply plugin: 'com.google.gms.google-services'

@@ -26,4 +26,10 @@
     <string name="title_activity_profile">Profile</string>
     <string name="action_settings">Settings</string>
 
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">Kcsogp0q6eCS30a7Z84MXMzgtdcqoRPmNbnUmuvx</string>
+    <string name="back4app_client_key">y92AE7wlclY2OoJKZ2tMrcw4KQ8KD8YRfMNQMKNt</string>
+
+
 </resources>
