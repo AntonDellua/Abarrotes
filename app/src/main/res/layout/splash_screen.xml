@@ -12,5 +12,5 @@
         android:src="@drawable/splash"
         android:background="@color/colorPrimaryDark"
         />
-s
+
 </androidx.constraintlayout.widget.ConstraintLayout>
