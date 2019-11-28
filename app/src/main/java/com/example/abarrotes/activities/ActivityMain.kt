@@ -27,8 +27,10 @@ class ActivityMain : AppCompatActivity(), BottomNavigationView.OnNavigationItemS
                 //homeFragment
             }
             R.id.action_profile -> {
-                //Cambiar
-                //homeFragment
+                supportFragmentManager
+                    .beginTransaction()
+                    .replace(R.id.main_content, ActivityProfile())
+                    .commit()
             }
             R.id.action_search -> {
                 //Cambiar
