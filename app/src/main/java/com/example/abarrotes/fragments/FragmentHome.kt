@@ -10,16 +10,11 @@ import android.util.Log
 import com.google.android.gms.maps.*
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
-import com.parse.FindCallback
-import com.parse.ParseException
 import com.parse.ParseObject
 import com.parse.ParseQuery
 import kotlinx.android.synthetic.main.activity_maps.view.*
 import org.jetbrains.anko.doAsync
-import org.jetbrains.anko.doAsyncResult
-import org.jetbrains.anko.support.v4.onUiThread
 import org.jetbrains.anko.support.v4.runOnUiThread
-import org.jetbrains.anko.support.v4.uiThread
 
 class FragmentHome : Fragment(), OnMapReadyCallback{
     private var mapFragment : SupportMapFragment? = null
