@@ -34,4 +34,8 @@
     <string name="search_map">Buscar lugar o dirección</string>
     <string name="search_map_button">Buscar</string>
 
+    <string name="profile_text">Perfil</string>
+    <string name="profile_name">Nombre</string>
+    <string name="profile_email">Correo</string>
+
 </resources>

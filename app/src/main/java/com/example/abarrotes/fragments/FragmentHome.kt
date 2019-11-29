@@ -36,7 +36,7 @@ class FragmentHome : Fragment(), OnMapReadyCallback{
 
         view.home_button_search.setOnClickListener {
 
-            mText = view.home_til_search.text.toString() // Leche, Carne, Abarrote
+            mText = view.home_til_search.text.toString()
 
             if (mText != "") {
 
