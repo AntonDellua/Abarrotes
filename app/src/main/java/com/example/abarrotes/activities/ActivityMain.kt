@@ -10,7 +10,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 import org.jetbrains.anko.find
 
 class ActivityMain : AppCompatActivity(), BottomNavigationView.OnNavigationItemSelectedListener {
-    private val homeFragment = null
+    private val homeFragment = FragmentHome()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -20,7 +20,7 @@ class ActivityMain : AppCompatActivity(), BottomNavigationView.OnNavigationItemS
         bottom.setOnNavigationItemSelectedListener(this)
         supportFragmentManager
             .beginTransaction()
-            .replace(R.id.main_content, FragmentHome())
+            .replace(R.id.main_content, homeFragment)
             .commit()
     }
 
@@ -29,7 +29,7 @@ class ActivityMain : AppCompatActivity(), BottomNavigationView.OnNavigationItemS
             R.id.action_home -> {
                 supportFragmentManager
                     .beginTransaction()
-                    .replace(R.id.main_content, FragmentHome())
+                    .replace(R.id.main_content, homeFragment)
                     .commit()
             }
             R.id.action_profile -> {

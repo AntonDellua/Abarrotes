@@ -31,5 +31,7 @@
     <string name="back4app_app_id">Kcsogp0q6eCS30a7Z84MXMzgtdcqoRPmNbnUmuvx</string>
     <string name="back4app_client_key">y92AE7wlclY2OoJKZ2tMrcw4KQ8KD8YRfMNQMKNt</string>
 
+    <string name="search_map">Buscar lugar o dirección</string>
+    <string name="search_map_button">Buscar</string>
 
 </resources>
