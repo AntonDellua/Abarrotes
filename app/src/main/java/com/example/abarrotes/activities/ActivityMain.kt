@@ -5,12 +5,15 @@ import android.os.Bundle
 import android.view.MenuItem
 import com.example.abarrotes.R
 import com.example.abarrotes.fragments.FragmentHome
+import com.example.abarrotes.fragments.FragmentMenu
 import com.example.abarrotes.fragments.FragmentProfile
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import org.jetbrains.anko.find
 
 class ActivityMain : AppCompatActivity(), BottomNavigationView.OnNavigationItemSelectedListener {
     private val homeFragment = FragmentHome()
+    private val profileFragment = FragmentProfile()
+    private val menuFragment = FragmentMenu()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -35,12 +38,14 @@ class ActivityMain : AppCompatActivity(), BottomNavigationView.OnNavigationItemS
             R.id.action_profile -> {
                 supportFragmentManager
                     .beginTransaction()
-                    .replace(R.id.main_content, FragmentProfile())
+                    .replace(R.id.main_content, profileFragment)
                     .commit()
             }
-            R.id.action_search -> {
-                //Cambiar
-                //homeFragment
+            R.id.action_menu -> {
+                supportFragmentManager
+                    .beginTransaction()
+                    .replace(R.id.main_content, menuFragment)
+                    .commit()
             }
             else -> homeFragment
         }

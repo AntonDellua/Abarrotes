@@ -38,4 +38,9 @@
     <string name="profile_name">Nombre</string>
     <string name="profile_email">Correo</string>
 
+    <string name="menu_text">Abarrotes es un App mexicana que busca promover el consumo local.
+    Abarrotes un sabor local
+    </string>
+    <string name="profile_button_logout">Log Out</string>
+
 </resources>
