@@ -1,5 +1,7 @@
 package com.example.abarrotes.activities
 
+import android.content.Context
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
@@ -9,11 +11,15 @@ import com.example.abarrotes.fragments.FragmentHome
 import com.example.abarrotes.fragments.FragmentMenu
 import com.example.abarrotes.fragments.FragmentProfile
 import com.example.abarrotes.fragments.storeFragment
+import com.example.abarrotes.utils.SESSION_ID_KEY
+import com.example.abarrotes.utils.SHARED_PREFERENCES
 import com.google.android.gms.maps.model.Marker
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.parse.ParseUser
 import org.jetbrains.anko.find
 
-class ActivityMain : AppCompatActivity(), BottomNavigationView.OnNavigationItemSelectedListener, OnMarkerClickListener {
+class ActivityMain : AppCompatActivity(), BottomNavigationView.OnNavigationItemSelectedListener, OnMarkerClickListener,
+    LogoutListener {
 
     private val homeFragment = FragmentHome()
     private val profileFragment = FragmentProfile()
@@ -77,10 +83,29 @@ class ActivityMain : AppCompatActivity(), BottomNavigationView.OnNavigationItemS
         changeFragment(1)
     }
 
+    override fun logout() {
+        val sharedPreferences = getSharedPreferences(SHARED_PREFERENCES, Context.MODE_PRIVATE)
+        val editor = sharedPreferences.edit()
+        editor.putString(SESSION_ID_KEY, "")
+        editor.apply()
+
+        val user = ParseUser.getCurrentUser()
+
+        ParseUser.logOut()
+
+        val intent = Intent(this, ActivityLogin::class.java)
+        startActivity(intent)
+        finish()
+    }
+
 
 }
 
 interface OnMarkerClickListener {
     fun onMarkerClick(marker: Marker)
     //fun passData(marker: Marker)
+}
+
+interface LogoutListener {
+    fun logout()
 }
