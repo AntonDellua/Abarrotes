@@ -35,5 +35,15 @@
             android:padding="10dp"
             android:layout_marginTop="60dp"
             android:paddingRight="10dp"/>
+        <Button
+            android:id="@+id/home_button_loc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|top"
+            android:text="Mi ubicacion"
+            android:padding="10dp"
+            android:layout_marginTop="60dp"
+            android:paddingRight="10dp"/>
+
     </LinearLayout>
 </fragment>
